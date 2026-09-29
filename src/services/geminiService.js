@@ -1,0 +1,16 @@
+export {
+  callAI as callGemini,
+  generateTeaching,
+  generateTutorResponse,
+  evaluateShortAnswer,
+  generateInterventionPlan,
+  isDirectAnswerRequest,
+  isOutOfScope,
+  generateTutorAction,
+  generateStudentProfile,
+  generateTutorChat,
+  generateEducatorQuiz,
+  generateAdaptiveAssignment,
+  isAIReady,
+  isGeminiReady,
+} from './aiService';
